@@ -24,11 +24,11 @@
     <main>
         <p>hello</p>
         <!-- main interface -->
-        <section class="flex justify-center items-center gap-20 bg-white p-6 w-fit mx-auto rounded-xl mb-5">
+        <section class="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-20 bg-white p-6 w-fit mx-auto rounded-xl mb-5">
             <!-- ticket -->
             <div>
                 <!-- ticket title start-->
-                <div class="flex justify-between items-center gap-20">
+                <div class="flex justify-between items-center gap-0 lg:gap-20">
                     <div class="flex justify-center items-center gap-2">
                         <img src="images/bus-logo.png" alt="bus-logo">
                         <div>
@@ -44,7 +44,7 @@
                 <!-- ticket title end -->
                 <!-- route start -->
                 <div class="bg-gray-100 rounded-xl p-6 mt-6">
-                    <div class="flex justify-between gap-20 m-5">
+                    <div class="flex justify-between lg:gap-20 m-5">
                         <p class="text-gray-700 font-normal font-roboto">Route</p>
                         <p class="font-medium">Dhaka - Sylhet</p>
                     </div>
@@ -54,7 +54,7 @@
                         <p class="font-medium">9.00 PM</p>
                     </div>
                     <p class="border-b-2 border-dotted"></p>
-                    <div class="flex justify-between justify-center items-center gap-20 m-5">
+                    <div class="flex justify-between justify-center items-center gap-2 lg:gap-20 m-5">
                         <p class="font-roboto font-medium bg-gray-200 px-3 py-2 rounded-xl">Boarding Point - Laxmipur
                         </p>
                         <p class="font-roboto font-medium bg-gray-200 px-3 py-2 rounded-xl">Dropping Point - Bogura</p>
@@ -63,7 +63,7 @@
                 </div>
                 <!-- rout end -->
             </div>
-            <p class="border-r-2 h-[250px] border-dotted border-green-300"></p>
+            <p class="border-r-2 h-0 lg:h-[250px] border-dotted border-green-300"></p>
             <div>
                 <div>
                     <img src="images/fare.png" alt="money-icon">
@@ -73,9 +73,9 @@
             </div>
         </section>
         <!-- ticket select section -->
-        <section class="bg-white p-6 w-fit mx-auto rounded-xl flex gap-8 justify-center">
+        <section class="bg-white p-6 w-fit mx-auto rounded-xl flex flex-col lg:flex-row gap-8 justify-center">
             <!-- section 1 -->
-            <div id="ticket" class="space-y-4">
+            <div id="ticket" class="space-y-4 pr-3 lg:p-0">
                 <h2 class="text-xl font-medium">Select Your Seat</h2>
                 <p class="border-b-2 border-dotted"></p>
                 <div class="flex justify-between justify-center items-center">
@@ -165,7 +165,7 @@
 
             </div>
             <!-- divider -->
-            <p class="border-r-2 h-[800px] border-dotted"></p>
+            <p class="border-r-2 h-0 lg:h-[800px] border-dotted"></p>
             <!-- section 2 -->
             <div class="space-y-4">
                 <h2 class="text-xl font-medium">Select Your Seat</h2>
