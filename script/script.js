@@ -96,6 +96,7 @@ function selectSeat(elementId) {
     const getSubmitBtnElement = document.getElementById('submit-btn');
     getSubmitBtnElement.addEventListener('click', function () {
         document.getElementById('success').classList.remove('hidden');
+        document.getElementById('discount-section').classList.add('hidden');
         document.querySelector('main').classList.add('hidden');
         document.querySelector('header').classList.add('hidden');
         document.querySelector('footer').classList.add('hidden');
@@ -103,5 +104,4 @@ function selectSeat(elementId) {
     })
 
 }
-// ------------------------------------------
 
