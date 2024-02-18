@@ -92,32 +92,16 @@ function selectSeat(elementId) {
         }
     })
 
+    // success massage
+    const getSubmitBtnElement = document.getElementById('submit-btn');
+    getSubmitBtnElement.addEventListener('click', function () {
+        document.getElementById('success').classList.remove('hidden');
+        document.querySelector('main').classList.add('hidden');
+        document.querySelector('header').classList.add('hidden');
+        document.querySelector('footer').classList.add('hidden');
+
+    })
+
 }
 // ------------------------------------------
 
-/* // order submission
-const getPassengerNameInput = document.getElementById('passenger-input');
-const getPassengerNameInputValue = getPassengerNameInput.value;
-const getPhoneInput = document.getElementById('phone-input');
-const getPhoneInputValue = getPhoneInput.value;
-const getSubmitBtn = document.getElementById('submit-btn');
-
-getPassengerNameInput.addEventListener('keyup', function (event) {
-    const passengerKeyValue = event.target.value;
-    const passengerKeyValueLength = event.target.value.length;
-    // console.log(passengerKeyValue);
-    // console.log(passengerKeyValueLength);
-
-    // const getSeat = document.getElementById('seat-count').innerText;
-    // const seat = parseInt(getSeat);
-    // if(passengerKeyValueLength >= 1 && seat >= 1){
-    //     getSubmitBtn.disabled = false;
-    // }
-
-})
-
-const getSeat = document.getElementById('seat-count').innerText;
-const seat = parseInt(getSeat);
-if (passengerKeyValueLength >= 1 && seat >= 1) {
-    getSubmitBtn.disabled = false;
-} */
