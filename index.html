@@ -60,23 +60,61 @@
             </div>
         </nav>
         <!-- hero section -->
-        <div class="hero h-[500px] lg:min-h-screen" style="background-image: url(images/banner.png);">
+        <div class="hero h-[500px] lg:min-h-screen relative" style="background-image: url(images/banner.png);">
             <div class=""></div>
             <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
                     <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with <br><span
                             class="text-[#1DD100]">Greenline Paribahan</span></h1>
                     <p class="mb-5 text-white font-roboto">Yes, you can run unit tests and view the results directly
-                        within the app. The integrated testing features allow for a streamlined</p>
-                    <button class="bg-[#1DD100] px-5 py-2 rounded text-white"><a href="#buy-ticket">Buy
+                        within the app. The integrated testing features allow for a streamlined.</p>
+                    <button class="bg-[#1DD100] px-5 py-2 rounded text-black font-bold text-xl"><a
+                            href="#buy-ticket">Buy
                             Tickets</a></button>
                 </div>
             </div>
         </div>
+        <!-- counting -->
+        <div
+            class="px-14 flex flex-col lg:flex-row gap-8 justify-center items-center lg:absolute top-[620px] left-[220px]">
+            <!-- 1 -->
+            <div
+                class="flex gap-3 p-5 border-b-2 border-[#1DD100] w-fit justify-center items-center rounded-xl bg-white">
+                <div>
+                    <img src="images/people.png" alt="">
+                </div>
+                <div>
+                    <h2 class="font-bold text-2xl">500K+</h2>
+                    <p class="font-roboto">Registered Users</p>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div
+                class="flex gap-3 p-5 border-b-2 border-[#1DD100] w-fit justify-center items-center rounded-xl bg-white">
+                <div>
+                    <img src="images/ticket-cupon.png" alt="">
+                </div>
+                <div>
+                    <h2 class="font-bold text-2xl">1.7 lacks</h2>
+                    <p class="font-roboto">Tickets Sold</p>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div
+                class="flex gap-3 p-5 border-b-2 border-[#1DD100] w-fit justify-center items-center rounded-xl bg-white">
+                <div>
+                    <img src="images/stoppage.png" alt="">
+                </div>
+                <div>
+                    <h2 class="font-bold text-2xl">80K+</h2>
+                    <p class="font-roboto">Rental Partners</p>
+                </div>
+            </div>
+        </div>
     </header>
-    <!-- Discount Section -->
+    <!-- discount Section -->
     <section id="discount-section" class="mx-auto container">
-        <h2 class="text-2xl font-bold flex justify-center items-center mt-14 mb-8">Best Offers for you</h2>
+        <h2 class="text-2xl font-bold flex justify-center items-center mt-32 mb-8">Best Offers for you</h2>
         <div class="flex flex-col lg:flex-row gap-4">
             <!-- 15 -->
             <div
@@ -103,7 +141,7 @@
                 </div>
                 <img src="images/cupon-devider.png" alt="">
                 <div>
-                    <h2 class="text-2xl font-bold text-[#030712]">Couple20</h2>
+                    <h2 class="text-2xl font-bold text-[#030712]">Couple 20</h2>
                     <p class="font-roboto">Coupon Code</p>
                 </div>
             </div>
@@ -117,7 +155,7 @@
             <div class="text-center">
                 <h1 class="mb-5 text-4xl font-bold">Greenline Paribahan</span></h1>
                 <p class="mb-5 font-roboto">Yes, you can run unit tests and view the results directly
-                    within the app. The integrated <br> testing features allow for a streamlined</p>
+                    within the app. The integrated <br> testing features allow for a streamlined.</p>
             </div>
         </div>
         <!-- main interface -->
@@ -226,7 +264,7 @@
                         class="px-7 py-2 bg-gray-100 rounded-xl inline-block font-roboto text-gray-600">D1</div>
                     <div onclick="selectSeat('d2')" id="d2"
                         class="px-7 py-2 bg-gray-100 rounded-xl inline-block font-roboto text-gray-600">D2</div>
-                    <div onclick="selectSeat('d3')" id="d4"
+                    <div onclick="selectSeat('d3')" id="d3"
                         class="px-7 py-2 bg-gray-100 rounded-xl inline-block font-roboto text-gray-600">D3</div>
                     <div onclick="selectSeat('d4')" id="d4"
                         class="px-7 py-2 bg-gray-100 rounded-xl inline-block font-roboto text-gray-600">D4</div>

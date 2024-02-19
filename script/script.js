@@ -81,7 +81,7 @@ function selectSeat(elementId) {
             getCouponBtnElement.classList.add('hidden')
 
         }
-        else if (getCouponInputElementValue === 'Couple20') {
+        else if (getCouponInputElementValue === 'Couple 20') {
             getGrandTotalPriceElement.innerText = totalPrice - (grandTotalPrice * 0.2);
             getCouponInputElement.classList.add('hidden');
             document.getElementById('demo').classList.add('hidden');
